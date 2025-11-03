@@ -3,7 +3,7 @@
 A full-stack web application that enables citizens to report local civic issues with images and location details.  
 Authorities can view submitted reports, track their progress, and update status fields through a role-based access system.
 
-**Live Demo:** [https://your-live-site-link](https://saurav-citycare.netlify.app/)  
+**Live Demo:** [City-Care website](https://saurav-citycare.netlify.app/)  
 > Since the backend is hosted on Render (free tier), it may take up to a minute to spin up after inactivity.
 
 ---
