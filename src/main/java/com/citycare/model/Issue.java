@@ -22,7 +22,10 @@ public class Issue {
     private String status;
     @CreationTimestamp
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy | hh:mm a", timezone = "Asia/Kolkata")
-    private LocalDateTime createdAt;
+    // private LocalDateTime createdAt;
+    private OffsetDateTime createdAt;
+
+    
 
     private Double longitude;
     private Double Latitude;
@@ -37,3 +40,4 @@ public class Issue {
     @ElementCollection
     private List<String> images;
 }
+
